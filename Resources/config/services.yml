@@ -1,0 +1,4 @@
+services:
+   ymw_imap_mailbox:
+        class: YMW\ImapBundle\MailBox\MailBox
+        arguments: ['@service_container']

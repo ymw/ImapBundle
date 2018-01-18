@@ -4,13 +4,16 @@
     "type": "library",
     "require": {
         "php": ">=5.3.3",
-        "ext-imap": "*"
+        "ext-imap": "*",
+        "symfony/dependency-injection": "^3.4",
+        "symfony/config": "^3.4",
+        "symfony/http-kernel": "^3.4"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
-        "psr-4": { "YMW\\ImapBundle\\": "" }
+        "psr-4": { "Ymw\\ImapBundle\\": "" }
     },
     "license": "MIT",
     "authors": [
